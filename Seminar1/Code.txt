@@ -1,0 +1,45 @@
+-- create
+CREATE TABLE Students (
+  empId INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  name2 TEXT NOT NULL,
+  name3 TEXT NOT NULL,
+  number TEXT NOT NULL,
+  number TEXT NOT NULL,
+  city TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO EMPLOYEE VALUES (0001, 'Иванов', 'Семен', 'Витольдович', '101', '3','Курсавка'),
+INSERT INTO EMPLOYEE VALUES (0002, 'Дегтярёв', 'Вячеслав', 'Алексеевич', '202', '5','Ессентуки').
+INSERT INTO EMPLOYEE VALUES (0003, 'Маментьев', 'Даниил', 'Дмитреевич', '303', '2','Ессентуки'),
+INSERT INTO EMPLOYEE VALUES (0004, 'Храмков', 'Алексей', 'Викторович', '401', '3','Пятигорск'),
+INSERT INTO EMPLOYEE VALUES (0005, 'Купин', 'Константин', 'Евгенеевич', '502', '4','Ростов-на-дону'),
+INSERT INTO EMPLOYEE VALUES (0006, 'Кучинский', 'Антон', 'Дмитреевич', '603', '3','Новый Уренгой'),
+INSERT INTO EMPLOYEE VALUES (0007, 'Купина', 'Мария', 'Евгеньвна', '504', '6','Ростов-на-Дону'),
+INSERT INTO EMPLOYEE VALUES (0008, 'Кадырманова', 'Александра', 'Сергеевна', '702', '3','Зеленокумск'),
+INSERT INTO EMPLOYEE VALUES (0009, 'Золоторёва', 'Любовь', 'Витольдовна', '102', '1','Курсавка'),
+INSERT INTO EMPLOYEE VALUES (0010, 'Мельников', 'Андрей', 'Николаевич', '803', '1','Москва'),
+-- fetch 
+SELECT * FROM EMPLOYEE WHERE dept = *
+;
+
+-- create
+CREATE TABLE evaluations(
+    empId  empId INTEGER PRIMARY KEY, 
+    name TEXT NOT NULL,
+    evaluations TEXT NOT NULL,
+    );
+    INSERT INTO EMPLOYEE VALUES (0001, 'Иванов', '2'),
+INSERT INTO EMPLOYEE VALUES (0002, 'Дегтярёв', '4').
+INSERT INTO EMPLOYEE VALUES (0003, 'Маментьев', '4'),
+INSERT INTO EMPLOYEE VALUES (0004, 'Храмков', '3'),
+INSERT INTO EMPLOYEE VALUES (0005, 'Купин', '5'),
+INSERT INTO EMPLOYEE VALUES (0006, 'Кучинский', '3'),
+INSERT INTO EMPLOYEE VALUES (0007, 'Купина', '5'),
+INSERT INTO EMPLOYEE VALUES (0008, 'Кадырманова', '2'),
+INSERT INTO EMPLOYEE VALUES (0009, 'Золоторёва', '3'),
+INSERT INTO EMPLOYEE VALUES (0010, 'Мельников', '5'),
+-- fetch 
+SELECT * FROM EMPLOYEE WHERE dept = *
+;
